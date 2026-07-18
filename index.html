@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>视频解构分析器 — Download</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:#0c0f1a; color:#e4e8f0; min-height:100vh; }
+.wrap { max-width:780px; margin:0 auto; padding:40px 20px; }
+h1 { font-size:28px; margin-bottom:6px; }
+h1 span { color:#4d7cff; }
+.subtitle { color:#7a84a0; margin-bottom:30px; }
+.card { background:#141827; border:1px solid #2a3050; border-radius:12px; padding:24px; margin-bottom:20px; }
+.card h2 { font-size:18px; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+.feature-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:12px 0; }
+.feature-grid div { background:#1a1f33; border-radius:8px; padding:10px 14px; font-size:14px; }
+.btn { display:inline-block; padding:12px 32px; border-radius:10px; font-size:16px; font-weight:600; text-decoration:none; background:linear-gradient(135deg,#22c55e,#16a34a); color:#fff; margin:4px; box-shadow:0 0 20px rgba(34,197,94,0.3); transition:all .2s; }
+.btn:hover { transform:translateY(-2px); box-shadow:0 0 30px rgba(34,197,94,0.5); }
+.btn-sec { background:#1a1f33; color:#e4e8f0; box-shadow:none; border:1px solid #2a3050; }
+.btn-sec:hover { border-color:#4d7cff; }
+.steps { margin:16px 0; }
+.steps li { margin:8px 0; padding-left:8px; color:#7a84a0; }
+.steps li strong { color:#e4e8f0; }
+.tag { display:inline-block; padding:2px 8px; border-radius:4px; font-size:12px; background:rgba(77,124,255,.15); color:#7b9fff; margin:2px; }
+.footer { text-align:center; color:#7a84a0; font-size:13px; margin-top:40px; border-top:1px solid #2a3050; padding-top:20px; }
+@media(max-width:600px){.feature-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🔍 视频解构<span>分析器</span></h1>
+  <div class="subtitle">AI Video Deconstruction Analyzer — Toobey</div>
+
+  <div class="card">
+    <h2>🎯 功能</h2>
+    <div class="feature-grid">
+      <div>🔧 工具识别（AE/Premiere/DaVinci等）</div>
+      <div>✨ 效果拆分（转场/粒子/光效/调色）</div>
+      <div>📦 素材来源分析</div>
+      <div>🤖 复刻提示词（MJ/Runway/Pika）</div>
+      <div>🎞️ 逐帧结构化分析（11维度）</div>
+      <div>📋 分镜脚本反推（Shot-by-Shot）</div>
+      <div>🌐 多模型支持（12+ API提供商）</div>
+      <div>📥 多格式导出（Seedance/Runway/MD）</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>⬇️ 下载</h2>
+    <p style="margin-bottom:12px;color:#7a84a0">Windows 版，解压后双击 VideoDecon.exe 即可运行</p>
+    <p>
+      <a class="btn" href="https://github.com/toobey521/video-deconstruction-analyzer/releases/download/v1.0/VideoDecon.zip">📥 下载 v1.0 (Windows)</a>
+    </p>
+    <p style="margin-top:8px;font-size:13px;color:#7a84a0">约 90 MB · 无需 Python · 解压即用</p>
+  </div>
+
+  <div class="card">
+    <h2>📖 快速开始</h2>
+    <ol class="steps">
+      <li><strong>下载</strong> 上方 ZIP 并解压</li>
+      <li><strong>双击</strong> <code>VideoDecon.exe</code> — 自动打开浏览器</li>
+      <li><strong>配置</strong> API 提供商（默认 Ollama 本地模型）</li>
+      <li><strong>上传</strong> 视频文件，点击「开始分析」</li>
+      <li><strong>查看</strong> 工具/效果/素材/提示词/分镜脚本</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>📋 系统要求</h2>
+    <p><span class="tag">Windows 10/11</span><span class="tag">无需 Python</span><span class="tag">可选 Ollama</span></p>
+    <p style="margin-top:8px;font-size:13px;color:#7a84a0">使用本地 Ollama 需额外安装，使用云端 API 则无需任何依赖</p>
+  </div>
+
+  <div class="footer">
+    <p>Made by <a href="https://toobey521.github.io/toobey-network/" style="color:#4d7cff;text-decoration:none">Toobey Network Technology</a></p>
+    <p style="margin-top:4px"><a href="https://github.com/toobey521/video-deconstruction-analyzer" style="color:#7a84a0">GitHub 仓库</a></p>
+  </div>
+</div>
+</body>
+</html>
